@@ -13,7 +13,7 @@ RED = (0, 0, 255)
 BLACK = (0, 0, 0)
 
 # Initialize the video capture object
-video_cap = cv2.VideoCapture("C:\\Users\\binor\\Desktop\\MACV AI\\macv-obj-tracking-video.mp4")
+video_cap = cv2.VideoCapture("Source video.mp4")
 # Initialize the video writer object
 writer = create_video_writer(video_cap, "output.mp4")
 
