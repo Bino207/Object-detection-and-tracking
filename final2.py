@@ -4,7 +4,6 @@ from ultralytics import YOLO
 import cv2
 from addon import create_video_writer
 from deep_sort_realtime.deepsort_tracker import DeepSort
-import json
 import numpy as np
 
 CONFIDENCE_THRESHOLD = 0.75
